@@ -9,9 +9,9 @@ namespace P3_Code
     //IAppUser Interface
     interface IAppUser
     {
-        bool Login(string Username, string Password);
+        bool Login(string UserName, string Password);
         List<AppUser> GetAll();
         void SetAuthentication(string UserName, bool IsAuthenticated);
-        AppUser GetByUserName(string Username);
+        AppUser GetByUserName(string UserName);
     }
 }

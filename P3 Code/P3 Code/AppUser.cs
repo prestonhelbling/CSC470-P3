@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace P3_Code
 {
     //AppUser Class
-    class AppUser
+    public class AppUser
     {
-        string UserName;
-        string Password;
-        string FirstName;
-        string LastName;
-        string EmailAddress;
-        bool IsAuthenticated;
+        public string UserName;
+        public string Password;
+        public string FirstName;
+        public string LastName;
+        public string EmailAddress;
+        public bool IsAuthenticated;
 
     }
 }
