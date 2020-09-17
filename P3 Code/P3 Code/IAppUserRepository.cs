@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace P3_Code
 {
     //IAppUser Interface
-    interface IAppUser
+    interface IAppUserRepository
     {
         bool Login(string UserName, string Password);
         List<AppUser> GetAll();

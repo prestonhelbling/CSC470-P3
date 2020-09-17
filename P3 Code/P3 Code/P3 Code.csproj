@@ -38,7 +38,7 @@
   <ItemGroup>
     <Compile Include="AppUser.cs" />
     <Compile Include="FakeAppUserRepository.cs" />
-    <Compile Include="IAppUser.cs" />
+    <Compile Include="IAppUserRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

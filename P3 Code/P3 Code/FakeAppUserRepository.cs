@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P3_Code
 {
-    public class FakeAppUserRepository : IAppUser
+    public class FakeAppUserRepository : IAppUserRepository
     {
         private static Dictionary<string, AppUser> AppUsers;
 
